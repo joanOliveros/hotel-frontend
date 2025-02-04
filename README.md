@@ -84,5 +84,3 @@ Este proyecto esta bajo ninguna Licencia MIT
 ### Autores ✒️
 
 - **Joan Sebastian Oliveros Diaz** - *Trabajo Inicial* - [joanOliveros](https://github.com/joanOliveros)
-
----sh
