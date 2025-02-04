@@ -3,7 +3,7 @@
 
 _Hotel Frontend es una aplicación desarrollada en React para la gestión eficiente de hoteles. La aplicación permite la interacción con una API REST desarrollada en Laravel para realizar operaciones de gestión como listar, agregar, actualizar y eliminar hoteles._
 
-![Logo del Proyecto]![alt text](image-1.png)
+![alt text](image-1.png)
 
 ## Comenzando 🚀
 
