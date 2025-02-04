@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react"
-import { Hotel } from "../interfaces/Hotel"
+import { Hotel, Props } from "../interfaces/Hotel"
 import { createHotel, updateHotel } from "../services/hotelService"
 
-interface Props {
-  hotel: Hotel | null
-  onSave: () => void
-}
+
 
 function HotelForm({ hotel, onSave }: Props) {
   const [form, setForm] = useState<Partial<Hotel>>({})

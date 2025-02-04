@@ -1,13 +1,9 @@
 import { useState, useEffect } from "react";
-import { Room } from "../interfaces/Room";
+import { Props, Room } from "../interfaces/Room";
 import { Hotel } from "../interfaces/Hotel";
 import { createRoom, updateRoom } from "../services/roomService";
 import { getHotels } from "../services/hotelService";
 
-interface Props {
-  room: Room | null;
-  onSave: () => void;
-}
 
 function RoomForm({ room, onSave }: Props) {
   const [form, setForm] = useState<Partial<Room>>({});

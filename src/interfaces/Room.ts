@@ -5,3 +5,8 @@ export interface Room {
     accommodation_id: number;
     quantity: number;
 }
+
+export interface Props {
+    room: Room | null;
+    onSave: () => void;
+  }

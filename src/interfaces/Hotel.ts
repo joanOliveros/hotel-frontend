@@ -6,3 +6,9 @@ export interface Hotel {
     nit: string;
     total_rooms: number;
 }
+
+
+export interface Props {
+    hotel: Hotel | null
+    onSave: () => void
+  }
